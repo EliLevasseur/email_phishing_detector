@@ -6,7 +6,7 @@ csv_path = Path("emails.csv")
 if not csv_path.exists():
 	raise FileNotFoundError("emails.csv not found in the project folder.")
 
-df = pd.read_csv(csv_path)
+df =pd.read_csv(csv_path)
 
 # Basic checks
 print(f"Rows: {len(df)}")
@@ -43,6 +43,5 @@ print(df.groupby("char_len")['word_length'].describe().round(1).head(2))
 
 print("\nLength stats (words):")
 print(df.groupby("char_len")["word_length"].describe().round(1).head(2))
-
 
 
