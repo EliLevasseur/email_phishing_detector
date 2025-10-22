@@ -28,21 +28,21 @@ The goal: go from a rule-based keyword detector → to a basic trained model by 
 
 ---
 
-### 📈 Progress Log
+### Progress Log
 **Day 1:** Set up project, wrote README, made starter dataset, tested environment.  
 **Day 2:** Expanded dataset to 24 rows, loaded it with pandas, explored phishing vs legit text length.  
-**Day 3:** - Day 3: Loaded dataset, analyzed word frequencies, plotted top phishing words.
+**Day 3:** Loaded dataset, analyzed word frequencies, plotted top phishing words.
 
 
 ---
 
-### 🚀 Next Steps
-- Count top phishing keywords.  
+### Next Steps
+- Build the first rule‑based detector and run a basic accuracy check.  
 - Visualize results with matplotlib.  
 - Start building detection logic.  
 
 ---
 
-### 🪪 Author
-**Eli Levasseur** — Student exploring cybersecurity, Python, and AI.  
-*Learning in public — documenting every step to build real projects.*
+###  Author
+**Eli Levasseur** — Student exploring cybersecurity, Python, and machine learning.  
+**documenting every step to building projects to fix real world issues.*
