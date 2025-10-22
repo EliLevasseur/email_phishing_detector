@@ -32,7 +32,7 @@ pd.set_option('display.max_colwidth', 100)
 print("\nSample phishing:")
 print(df[df["label"] == "phishing"]["text"].head(2))
 print("\nSample legit:")
-print(df[df["label"] == "legit"]["text"].head(2).to_string(index=False))
+print(df[df["label"] == "legit"]["text"].to_string(index=False))
 
 # Add quick text length stats
 df["char_len"] = df["text"].astype(str).str.len()
@@ -43,5 +43,4 @@ print(df.groupby("char_len")['word_length'].describe().round(1).head(2))
 
 print("\nLength stats (words):")
 print(df.groupby("char_len")["word_length"].describe().round(1).head(2))
-
 
