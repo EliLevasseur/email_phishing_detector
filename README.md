@@ -29,8 +29,10 @@ The goal: go from a rule-based keyword detector → to a basic trained model by 
 ---
 
 ### 📈 Progress Log
-- **Day 1:** Set up project, wrote README, made starter dataset, tested environment.  
-- **Day 2:** Expanded dataset to 24 rows, loaded it with pandas, explored phishing vs legit text length.  
+**Day 1:** Set up project, wrote README, made starter dataset, tested environment.  
+**Day 2:** Expanded dataset to 24 rows, loaded it with pandas, explored phishing vs legit text length.  
+**Day 3:** - Day 3: Loaded dataset, analyzed word frequencies, plotted top phishing words.
+
 
 ---
 
