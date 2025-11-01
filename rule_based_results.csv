@@ -1,0 +1,29 @@
+text,label,prediction
+Your account has been temporarily locked. Click the link to verify your identity.,phishing,phishing
+Unusual sign-in attempt detected on your account. Reset your password immediately.,phishing,phishing
+Final notice: your billing information is outdated. Update it now to avoid suspension.,phishing,phishing
+We detected suspicious activity. Confirm your details to restore full access.,phishing,phishing
+Important: Your mailbox is almost full. Click here to increase storage.,phishing,phishing
+Payment failed: download the attached invoice and submit your details.,phishing,legit
+Congratulations! You have won a crypto giveaway. Claim 0.5 BTC within 24 hours.,phishing,legit
+Security alert: we couldn't verify your payment method. Re-enter your card info.,phishing,phishing
+Update required: new security policy. Sign in to keep your account active.,phishing,phishing
+Your package is on hold due to an address issue. Provide your information to deliver.,phishing,phishing
+Verify your email ownership to prevent permanent deletion of your account.,phishing,phishing
+Urgent action required: confirm your login within 12 hours to avoid lockout.,phishing,phishing
+Hey! Just checking if you can make it to study group at 4pm today.,legit,legit
+Reminder: calculus homework due Friday. Bring printed solutions to class.,legit,legit
+Here are the meeting notes from today. Let me know if I missed anything.,legit,legit
+Thanks for your help on the project—your script worked perfectly.,legit,legit
+Receipt for your lunch order at Campus Cafe. Total: $12.45. Thanks!,legit,legit
+Coach moved practice to 6pm tomorrow at the main gym.,legit,legit
+Sharing the slides from the club presentation. Great job on Q&A!,legit,legit
+Family dinner on Sunday at 6pm. Can you bring dessert?,legit,legit
+Your appointment is confirmed for Tuesday at 10:30. Reply if you need to reschedule.,legit,legit
+Here's the reading list for next week—chapters 4 and 5 only.,legit,legit
+Thanks for the heads-up about the schedule change. See you after class.,legit,legit
+Shipping confirmation: your book order has been mailed. Tracking will follow.,legit,legit
+Your account has been compromised. Click here to reset.,phishing,phishing
+Hey just wanted to confirm our lunch plans!,legit,phishing
+Update your billing information immediately to avoid suspension.,phishing,phishing
+See you tomorrow for the project meeting.,legit,legit
