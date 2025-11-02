@@ -79,16 +79,16 @@ def main():
     print("Saved confusion matrix -> confusion_matrix_rule_based.png")
 
     # ---------- Inspect false positives / negatives ----------
-df_results = pd.read_csv("rule_based_results.csv")
+    df_results = pd.read_csv("rule_based_results.csv")
 
-false_neg = df_results[(df_results['label'] == 'phishing') & (df_results['prediction'] == 'legit')]
-false_pos = df_results[(df_results['label'] == 'legit') & (df_results['prediction'] == 'phishing')]
+    false_neg = df_results[(df_results['label'] == 'phishing') & (df_results['prediction'] == 'legit')]
+    false_pos = df_results[(df_results['label'] == 'legit') & (df_results['prediction'] == 'phishing')]
 
-print("\n--- False Negatives (missed phishing) ---")
-print(false_neg['text'].head(5).to_list())
+    print("\n--- False Negatives (missed phishing) ---")
+    print(false_neg['text'].head(5).to_list())
 
-print("\n--- False Positives (flagged legit as phishing) ---")
-print(false_pos['text'].head(5).to_list())
+    print("\n--- False Positives (flagged legit as phishing) ---")
+    print(false_pos['text'].head(5).to_list())
 
 
 if __name__ == "__main__":
