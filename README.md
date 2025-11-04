@@ -35,7 +35,7 @@ The goal: go from a rule-based keyword detector → to a basic trained model by 
 **Day 4:** Built the rule-based detector, generated predictions, and plotted its confusion matrix.  
 **Day 5:** Reviewed false positives/negatives and tightened the evaluation flow.  
 **Day 6:** Added the CLI helper for quick rule-based predictions.  
-**Day 7:** Created first linear regression model and compared results to the rule based detector.  
+**Day 7:** Created first logistic regression model and compared results to the rule based detector.  
 
 
 
